@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Dean's portfolio</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- Custom CSS die ik gebruik voor delen van de pagina.-->
+    <link rel="stylesheet" href="StartPage.css">
+    <link rel="stylesheet" href="TypeWriter.css">
+    <link rel="stylesheet" href="Skills.css">
+    <script src="https://cdn.jsdelivr.net/npm/kute.js@2.1.2/dist/kute.min.js">//hier import ik Kute.js</script>
+</head>
+
+<body>
+    <header class="bg-dark" id="navbar">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand text-white" href="#">Dean Zeggelink</a>
+            <!--Hier maak ik een simpele navbar met bootstrap, css en javascript-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#about-me">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#Projecten">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#Tools">Tools</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#Skills">Skills</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" id="dropdownId" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Reach out</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownId">
+                            <a class="dropdown-item" href="https://github.com/dean-zk">GitHub</a>
+                            <a class="dropdown-item" href="mailto:deanroman2005@icloud.com">Email</a>
+                            <a class="dropdown-item" href="https://www.instagram.com/dean.mp2">Instagram</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="row justify-content-center align-items-center typewriter-container">
+            <div class="col text-center">
+                <h1 class="larger-text">Dean R Zeggelink</h1>
+                <!--Hieronder is het stukje voor de typewriter script.-->
+                <h1>I'm a <span class="stop-blinking"></span></h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="spacer layer1"></div> <!--Dit zijn de svg images die wat sfeer geven aan de site.-->
+    <div class="spacer layer2 flip"></div>
+
+    <!--Dit is gewoon een simpele card flexbox met een foto van mij en en een stukje text.-->
+    <div id="about-me" class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <img src="Dean.jpg" alt="dean" class="img-fluid" sizes="width 320px" srcset="">
+            </div>
+            <div class="col-md-6">
+                <div class="about-me-box">
+                    <h1>Over mij</h1>
+                    <p>
+                        Vroeger had ik al een duidelijk doel voor ogen: mijn eigen content maken waar mensen graag
+                        gebruik van zouden willen maken. Na mijn middelbare schoolperiode heb ik lang nagedacht over wat
+                        ik wilde doen. Uiteindelijk heb ik besloten om eindelijk die droom van mij waar te maken, en tot
+                        nu toe is dat behoorlijk goed gelukt. <br>
+                        <br>
+                        Momenteel werk ik voornamelijk samen met vrienden aan projecten voor school, maar mijn
+                        creativiteit stopt daar zeker niet. Na school kun je me vaak bezig zien met
+                        MonoGame-applicaties in C#, Lua, het maken van Vim-configuraties en nog veel meer. <br>
+                        <br>
+                        En binnenkort ga ik een nieuw avontuur aan: ik zal stage lopen bij een cybersecurity bedrijf.
+                        Het is een opwindende kans om mijn passie voor technologie en mijn interesse in het beveiligen
+                        van
+                        digitale systemen te combineren. Ik kijk ernaar uit om mijn vaardigheden te ontwikkelen en bij
+                        te
+                        dragen aan de uitdagingen op het gebied van cyber security. <br>
+                        <br>
+                        Wil je meer weten of gewoon even kletsen? Stuur me dan gerust een berichtje! <br>
+                        Gegevens staan boven aan bij "Reach out".
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="spacer layer3"></div>
+    <!--Hier maak ik alles roze om zo een sfeer te geven dat goed zal passen bij de project cards.-->
+    <section id="Projecten" class="pink">
+        <div class="blob-content">
+            <div class="col-md-6">
+                <div class="project-box">
+                    <div class="project-content">
+                        <h1>MonoGame</h1>
+                        <p>
+                            Mijn meest recente project is mijn MonoGame applicatie "Kosmos Blits". Dit is de aller
+                            eerste
+                            grootschalige MonoGame applicatie die ik heb gebouwd. Het doel is simpel. Schiet de vijand
+                            schepen neer,
+                            zodra je dat 40 keer hebt gedaan heb je gewonnen!
+                        </p>
+                        <a href="your-other-page.html" class="btn btn-warning">Learn More</a>
+                        <!--Een simpele button met bootstrap.-->
+                    </div>
+                    <div class="project-image">
+                        <img src="KosmosBlitz.png" alt="Project Image">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="project-box">
+                    <div class="project-content">
+                        <h1>MindSwing</h1>
+                        <p>
+                            We mogen unity ook zeker niet vergeten! Samen met 2 andere heb ik een blauwprint gemaakt
+                            voor een 3D puzzel game.
+                            Hiet is Uiteindelijk niet veel geworden, maar toch hebben we weer veel geleerd.
+                        </p>
+                        <a href="MindSwing.zip" class="btn btn-warning">Dowload hier!</a>
+                    </div>
+                    <div class="project-image">
+                        <img src="ms.png" alt="Project Image">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Hier heb ik 2 svg blobs die ik dan laat animeren van staat 1 naar staat 2 toe.-->
+        <svg class="blob-motion" id="visual" viewBox="0 0 960 540" width="960" height="540"
+            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+            <g transform="translate(444.7546105292941 271.94900654343826)">
+                <path id="blob1"
+                    d="M132.8 -136C174.6 -91 212.8 -45.5 217.1 4.2C221.3 54 191.6 108 149.8 150.6C108 193.3 54 224.6 11.1 213.6C-31.8 202.5 -63.6 149 -92.3 106.3C-121 63.6 -146.5 31.8 -147 -0.5C-147.4 -32.8 -122.9 -65.5 -94.2 -110.5C-65.5 -155.5 -32.8 -212.8 6.4 -219.1C45.5 -225.5 91 -181 132.8 -136"
+                    fill="#ff5040"></path>
+            </g>
+            <g transform="translate(402.39046045505063 272.87964451488455)" style="visibility: hidden">
+                <path id="blob2"
+                    d="M159.6 -186.3C204 -187.4 235.1 -137 251.3 -82.7C267.6 -28.4 268.8 29.7 240.7 66.5C212.6 103.3 155.1 118.8 110.1 154.2C65 189.5 32.5 244.8 3.2 240.3C-26.1 235.9 -52.1 171.7 -87.8 133.3C-123.4 94.9 -168.7 82.2 -167.6 60.4C-166.4 38.6 -118.9 7.7 -109.6 -40.1C-100.3 -88 -129.2 -152.8 -117.3 -162.3C-105.4 -171.8 -52.7 -125.9 2.4 -129.2C57.6 -132.6 115.2 -185.2 159.6 -186.3"
+                    fill="#ff5040"></path>
+            </g>
+        </svg>
+        <script>
+            //Dit is een simpel stukje code van een JS library om de SVG blob te animeren.
+            const tween = KUTE.fromTo(
+                '#blob1',
+                { path: '#blob1' },
+                { path: '#blob2' },
+                { repeat: 999, duration: 3000, yoyo: true }
+            ).start();
+        </script>
+    </section>
+    <div class="spacer layer4 flip"></div>
+    <!--een simpel lijste met bootstap om mijn tools weer te geven.-->
+    <div class="container" id="Tools">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="row mt-4">
+                    <div class="col-md-12 mb-3">
+                        <img src="nvim.png" alt="NeoVim" class="img-fluid rounded" style="max-width: 150px;">
+                    </div>
+                    <div class="col-md-12 mb-3">
+                        <img src="mx-master-3s-for-business-gallery-1.png" alt="MX Master 3" class="img-fluid rounded"
+                            style="max-width: 150px;">
+                    </div>
+                    <div class="col-md-12">
+                        <img src="spotify_logo_icon_154469.png" alt="Spotify" class="img-fluid rounded"
+                            style="max-width: 150px;">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="about-me-box">
+                    <h1>Mijn tools</h1>
+                    <p>
+                        Als gepassioneerde ontwikkelaar ben ik afhankelijk van mijn favoriete tools om mijn werk met
+                        enthousiasme en efficiëntie te doen. Hier is een kijkje in mijn gereedschapskist:
+                    </p>
+                    <ul>
+                        <li>
+                            <strong>NeoVim:</strong> Een krachtige, lichtgewicht teksteditor die moeiteloos kan worden
+                            omgezet in een op maat gemaakte IDE. Ideaal voor snelle en flexibele ontwikkeling!
+                        </li>
+                        <li>
+                            <strong>MX Master 3:</strong> Weg met gaming muizen; ik investeerde in een professionele
+                            werk muis en heb er geen moment spijt van gehad. Ergonomisch ontwerp en ongeëvenaarde
+                            prestaties maken elke klik een genot.
+                        </li>
+                        <li>
+                            <strong>Spotify:</strong> Omdat muziek alles beter maakt. Een constante metgezel tijdens
+                            mijn coding-sessies, waardoor de workflow nog productiever en aangenamer wordt.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="spacer layer5" id="greenhills"></div>
+    <div class="spacer layer5 flip" id="flipped"></div>
+
+
+    <div class="skills" id="Skills"> <!--Oh ja. Deze ID's zijn om er naar toe te gaan via de navbar-->
+        <h2>Programming Skills</h2>
+
+        <div class="skill">
+            <div class="skill-name">C#</div>
+            <div class="skill-meter">
+                <div class="skill-level" style="width: 80%;"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="skill-name">Lua</div>
+            <div class="skill-meter">
+                <div class="skill-level" style="width: 50%;"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="skill-name">Vim</div>
+            <div class="skill-meter">
+                <div class="skill-level" style="width: 80%;"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="skill-name">Unity</div>
+            <div class="skill-meter">
+                <div class="skill-level" style="width: 70%;"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="skill-name">MonoGame</div>
+            <div class="skill-meter">
+                <div class="skill-level" style="width: 60%;"></div>
+            </div>
+        </div>
+
+        <h2>Taalvaardigheid</h2>
+
+        <div class="skill">
+            <div class="skill-name">Nederlands</div>
+            <div class="skill-meter">
+                <div class="skill-level" style="width: 100%;"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="skill-name">Engels</div>
+            <div class="skill-meter">
+                <div class="skill-level" style="width: 100%;"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="skill-name">Duits</div>
+            <div class="skill-meter">
+                <div class="skill-level" style="width: 10%;"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="skill-name">Frans</div>
+            <div class="skill-meter">
+                <div class="skill-level" style="width: 10%;"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="spacer layer6 flip"></div>
+    <div class="col text-center">
+        <h1 class="larger-text">
+            Bedankt! <br>
+            <a class="nav-link text-white" href="#navbar">contact nemen? <br><br> Klik dan hier!</a>
+        </h1>
+    </div>
+    <div class="spacer layer6"></div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="typewriter.js"></script> <!--Alle scripts die ik gebruik voor de Dom manipulatie.-->
+    <script src="SmoothScroll.js"></script>
+</body>
+
+</html>

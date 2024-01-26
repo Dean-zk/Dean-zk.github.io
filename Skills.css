@@ -1,0 +1,31 @@
+.skills {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.skill {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.skill-name {
+    flex: 1;
+    text-align: left;
+}
+
+.skill-meter {
+    flex: 3;
+    background-color: #e0e0e0;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.skill-level {
+    height: 100%;
+    border-radius: 10px;
+    background-color: #3498db;
+}

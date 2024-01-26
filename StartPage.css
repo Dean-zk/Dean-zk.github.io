@@ -1,0 +1,262 @@
+.navbar {
+    background: linear-gradient(to right, #616161, #001f3f, #4e54c8);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    color: #fff;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: 15px;
+}
+
+.navbar-nav .nav-link {
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+}
+
+.navbar-nav .nav-item:not(.dropdown) {
+    position: relative;
+}
+
+.navbar-nav .nav-item:not(.dropdown)::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 3px;
+    background-color: #ffc107;
+    bottom: 0;
+    left: 50%;
+    transform-origin: 50% 50%;
+    transform: translateX(-50%);
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-item:not(.dropdown):hover::before {
+    width: 100%;
+    visibility: visible;
+}
+
+.dropdown-menu {
+    background-color: #4e54c8;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-item {
+    color: #fff;
+    position: relative;
+}
+
+.dropdown-item i {
+    margin-right: 8px;
+}
+
+.dropdown-item::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 3px;
+    background-color: #ffc107;
+    bottom: 0;
+    left: 50%;
+    transform-origin: 50% 50%;
+    transform: translateX(-50%);
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.dropdown-item:hover::before {
+    width: 100%;
+    visibility: visible;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #001220;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+
+.spacer {
+    aspect-ratio: 960/540;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.layer1 {
+    background-image: url('./Svg/layered-waves-haikei.svg');
+}
+
+.layer2 {
+    background-image: url('./Svg/layered-waves-haikei-sunset.svg');
+}
+
+.layer3 {
+    background-image: url('./Svg/DawnOfTheSun.svg');
+    margin-bottom: -1px;
+}
+
+.layer4 {
+    background-image: url('./Svg/TheSea.svg');
+    margin-top: -5px;
+}
+
+.layer5 {
+    background-image: url('./Svg/greenhills.svg');
+    margin-top: 20px;
+    margin-bottom: -20px;
+    position: relative;
+}
+
+.layer6 {
+    background-image: url('./Svg/finalwave.svg');
+}
+
+.flip {
+    transform: rotate(180deg);
+    position: relative;
+}
+
+#greenhills {
+    z-index: 2;
+}
+
+#flipped {
+    z-index: 1;
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 20px;
+    text-align: left;
+}
+
+.rectangle-box {
+    width: 150px;
+    height: 300px;
+    background-color: gray;
+}
+
+.card-deck {
+    margin-top: 20px;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+
+.about-me-box {
+    background-color: #00203a;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 100%;
+}
+
+.col-md-6 {
+    margin-top: 40px;
+}
+
+.col-md-6 img {
+    border: 5px solid #00203a;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.pink {
+    background: #ff6f61;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 500px;
+    padding-top: 100px;
+    align-items: flex-end;
+}
+
+.blob-motion {
+    position: absolute;
+    transform: translateY(-20%);
+    z-index: 0;
+}
+
+.blob-content {
+    z-index: 1;
+}
+
+.box {
+    background-color: #00203a;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.box-content {
+    color: #fff;
+}
+
+.project-box {
+    background-color: #ff5040;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+    overflow: hidden;
+    display: flex;
+}
+
+.project-content {
+    flex: 2;
+    color: #fff;
+}
+
+.project-image {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.project-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
