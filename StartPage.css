@@ -98,33 +98,34 @@ body {
 }
 
 .layer1 {
-    background-image: url('./SvG/layered-waves-haikei.svg');
+    background-image: url('./Svg/layered-waves-haikei.svg?sanitize=true');
 }
 
 .layer2 {
-    background-image: url('./SvG/layered-waves-haikei-sunset.svg');
+    background-image: url('./Svg/layered-waves-haikei-sunset.svg?sanitize=true');
 }
 
 .layer3 {
-    background-image: url('./SvG/DawnOfTheSun.svg');
+    background-image: url('./Svg/DawnOfTheSun.svg?sanitize=true');
     margin-bottom: -1px;
 }
 
 .layer4 {
-    background-image: url('./SvG/TheSea.svg');
+    background-image: url('./Svg/TheSea.svg?sanitize=true');
     margin-top: -5px;
 }
 
 .layer5 {
-    background-image: url('./SvG/greenhills.svg');
+    background-image: url('./Svg/greenhills.svg?sanitize=true');
     margin-top: 20px;
     margin-bottom: -20px;
     position: relative;
 }
 
 .layer6 {
-    background-image: url('./SvG/finalwave.svg');
+    background-image: url('./Svg/finalwave.svg?sanitize=true');
 }
+
 
 .flip {
     transform: rotate(180deg);
