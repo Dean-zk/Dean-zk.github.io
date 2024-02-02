@@ -1,59 +1,128 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>MonoGame Page</title>
+
+<head>
+    <title>Dean's portfolio</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
-<header class="header">
-    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-        <a class="navbar-brand text-white" href="#">Dean's Portfolio</a>
-        <!-- Add a unique logo here if desired -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
-                aria-controls="collapsibleNavId"
-                aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="collapsibleNavId">
-            <ul class="navbar-nav ml-auto"> <!-- Right-align the navigation items -->
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="projecten.html">projecten</a> <!-- Update link to your blog page -->
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="regeldieshit.html">Short Films</a> <!-- Update link to your portfolio page -->
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="skills.html">Tools page</a> <!-- Update link to your portfolio page -->
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-white" href="#" id="dropdownId" data-toggle="dropdown"
-                       aria-haspopup="true" aria-expanded="false">Contact</a>
-                    <div class="dropdown-menu" aria-labelledby="dropdownId">
-                        <a class="dropdown-item" href="https://www.instagram.com/vcs.dn/">Instagram</a>
-                        <a class="dropdown-item" href="mailto:deanroman2005@icloud.com">E-Mail</a>
-                        <a class="dropdown-item" href="#">Discord</a>
+    <!-- Custom CSS die ik gebruik voor delen van de pagina.-->
+    <link rel="stylesheet" href="StartPage.css">
+    <link rel="stylesheet" href="TypeWriter.css">
+    <link rel="stylesheet" href="Skills.css">
+    <script src="https://cdn.jsdelivr.net/npm/kute.js@2.1.2/dist/kute.min.js">//hier import ik Kute.js</script>
+</head>
+
+<body>
+    <header class="bg-dark" id="navbar">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand text-white" href="#">Dean Zeggelink</a>
+            <!--Hier maak ik een simpele navbar met bootstrap, css en javascript-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" id="dropdownId" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Reach out</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownId">
+                            <a class="dropdown-item" href="https://github.com/dean-zk">GitHub</a>
+                            <a class="dropdown-item" href="mailto:deanroman2005@icloud.com">Email</a>
+                            <a class="dropdown-item" href="https://www.instagram.com/dean.mp2">Instagram</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <br>
+    <br>
+    <div class="spacer layer5" id="greenhills"></div>
+    <section id="Projecten" class="green">
+        <div class="blob-content">
+            <div class="col-md-6">
+                <div class="project-box-green">
+                    <div class="project-content">
+                        <h1>MonoGame</h1>
+                        <p>
+                            Mijn meest recente project is mijn MonoGame applicatie "Kosmos Blits". Dit is de aller
+                            eerste
+                            grootschalige MonoGame applicatie die ik heb gebouwd. Het doel is simpel. Schiet de vijand
+                            schepen neer,
+                            zodra je dat 40 keer hebt gedaan heb je gewonnen!
+                        </p>
+                        <!--Een simpele button met bootstrap.-->
                     </div>
-                </li>
-            </ul>
+                    <div class="project-image">
+                        <img src="KosmosBlitz.png" alt="Project Image">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="project-box-green">
+                    <div class="project-content">
+                        <div class="project-image">
+                            <img src="GamePlayVid.gif" alt="Project Image">
+                        </div>
+                        <br>
+                        <br>
+                        <br>
+                        <h1>GamePlay</h1>
+                        <p>
+                            De gameplay is erg simpel. Je speelt als een ruimteschip en je moet vijanden neer schieten.
+                            Als je 40 vijanden hebt neergeschoten heb je het spel gewonnen.
+                            Je beweegt door het level met a en d, schieten doe je met spatie balk. Laat de vijanden niet
+                            jouw schip raken! anders is de
+                            pret snel voorbij.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
-    </nav>
-</header>
-
-    <!-- Optional JavaScript -->
+        <div class="col-md-6">
+            <div class="project-box-green">
+                <div class="project-content">
+                    <div class="project-image">
+                        <img src="code1.png" alt="Project Image">
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                    <h1>Code</h1>
+                    <p>
+                        Voor de tech savy onder ons heb ik nog een paar screenshots gemaakt van de code. Het is
+                        geschreven in C# en dus redelijk makkelijk te volgen.
+                        Mocht je vragen hebben. Stuur mij dan een berichtje op een van mijn contact pagina's. Wil je de
+                        code hebben? Hier is de download!
+                    </p>
+                    <a href="KosmosBlitz-Scripts.zip" class="btn btn-warning">Dowload hier!</a>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+    </section>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
-</html>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="typewriter.js"></script> <!--Alle scripts die ik gebruik voor de Dom manipulatie.-->
+    <script src="SmoothScroll.js"></script>
+</body>
 
+</html>

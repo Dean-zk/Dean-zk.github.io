@@ -140,6 +140,11 @@ body {
     z-index: 1;
 }
 
+#flipped2 {
+    margin-top: -1px;
+    z-index: 1;
+}
+
 .profile-section {
     display: flex;
     align-items: center;
@@ -193,6 +198,13 @@ body {
     z-index: 1;
 }
 
+.green {
+    background: #1ba232;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
 section {
     position: relative;
     display: flex;
@@ -234,6 +246,16 @@ section {
 
 .project-box {
     background-color: #ff5040;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+    overflow: hidden;
+    display: flex;
+}
+
+.project-box-green {
+    background-color: #2dc847;
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
